@@ -55,16 +55,15 @@ dotnet run
 
 ## 🧠 Aprendizados
 
-Este projeto foi desenvolvido com foco em:
+Este projeto foi desenvolvido com foco em aprendizado nos seguintes tópicos:
 
 * Construção de APIs REST
 * Boas práticas com Entity Framework
 * Organização em camadas
 * Configuração segura de credenciais
 * Entendimento de principios SOLID
+* Injeção de dependência
+* Programação assíncrona
+* Retornos HTTPs corretos
 
 ---
-
-## 📄 Licença
-
-Este projeto é para fins de estudo.
