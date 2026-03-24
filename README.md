@@ -1,6 +1,6 @@
 # 📚 API Biblioteca
 
-API REST desenvolvida com .NET para gerenciamento de uma biblioteca, permitindo operações de cadastro, consulta, atualização e remoção de dados.
+API REST com padrâo MVC e principios SOLID desenvolvida com .NET para gerenciamento de uma biblioteca, permitindo operações de cadastro, consulta, atualização e remoção de dados.
 
 ---
 
@@ -10,16 +10,6 @@ API REST desenvolvida com .NET para gerenciamento de uma biblioteca, permitindo 
 * ASP.NET Core
 * Entity Framework Core
 * SQL Server
-* DotNetEnv
-
----
-
-## 📁 Estrutura do projeto
-
-* Controllers → Endpoints da API
-* Services → Regras de negócio
-* Models → Entidades do sistema
-* Data → Contexto e configurações do banco
 
 ---
 
@@ -36,11 +26,7 @@ API REST desenvolvida com .NET para gerenciamento de uma biblioteca, permitindo 
 
 Este projeto utiliza um arquivo `.env` para armazenar dados sensíveis.
 
-1. Copie o arquivo `.env.example`:
-
-```bash
-cp .env.example .env
-```
+1. Edite o arquivo `.env.example`:
 
 2. Preencha com sua connection string:
 
@@ -66,28 +52,6 @@ dotnet run
 
 ---
 
-## 📌 Endpoints principais
-
-| Método | Rota             | Descrição             |
-| ------ | ---------------- | --------------------- |
-| GET    | /api/livros      | Lista todos os livros |
-| GET    | /api/livros/{id} | Busca livro por ID    |
-| POST   | /api/livros      | Cadastra novo livro   |
-| PUT    | /api/livros/{id} | Atualiza livro        |
-| DELETE | /api/livros/{id} | Remove livro          |
-
----
-
-## 🔐 Segurança
-
-Este projeto segue boas práticas de segurança:
-
-* Uso de variáveis de ambiente (`.env`)
-* Arquivo `.env` não versionado
-* Arquivo `.env.example` para referência
-* Nenhuma informação sensível exposta no repositório
-
----
 
 ## 🧠 Aprendizados
 
@@ -97,6 +61,7 @@ Este projeto foi desenvolvido com foco em:
 * Boas práticas com Entity Framework
 * Organização em camadas
 * Configuração segura de credenciais
+* Entendimento de principios SOLID
 
 ---
 
